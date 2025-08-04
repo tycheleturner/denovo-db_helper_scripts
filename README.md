@@ -3,14 +3,16 @@
 
 ##### Download the denovo-db files from Zenodo at https://zenodo.org/records/13901296
 
-#Run default settings to pull out variants in a gene
+The script `extract_genes.py` will pull out variant data, in specific genes, from the tab-delimited files in denovo-db.
+
+##### Run default settings to pull out variants in a gene
 ```
 python3 extract_genes.py --nonssc denovo-db_1.8_not_ssc.annotated.final.tab.gz \
  --ssc denovo-db_1.8_ssc.annotated.final.tab.gz \
  --gene EBF3
 ```
 
-#Run with additional consequences (you should check the output message on the screen for what you want)
+##### Run with additional consequences (you should check the output message on the screen for what you want)
 ```
 python3 extract_genes.py --nonssc denovo-db_1.8_not_ssc.annotated.final.tab.gz \ 
  --ssc denovo-db_1.8_ssc.annotated.final.tab.gz \
