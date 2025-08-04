@@ -1,7 +1,7 @@
 ## Extract variants in specific genes from denovo-db
 #### Tychele N. Turner, Ph.D.
 
-##### Download the files from Zenodo at https://zenodo.org/records/13901296
+##### Download the denovo-db files from Zenodo at https://zenodo.org/records/13901296
 
 #Run default settings to pull out variants in a gene
 ```
